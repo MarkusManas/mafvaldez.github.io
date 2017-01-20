@@ -43,6 +43,30 @@
 	text-align: center;
 }
 
+#about
+{
+	padding: 10px;
+	background-color: rgba(122,122,122,0.5);
+	border: none;
+	font-family: Georgia;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+
+}
+
+#contact
+{
+	padding: 10px;
+	background-color: rgba(122,122,122,0.5);
+	border: none;
+	font-family: Georgia;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+
+}
+
 nav a
 {
 	margin-left: auto;
