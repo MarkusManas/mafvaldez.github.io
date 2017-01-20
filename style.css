@@ -1,0 +1,150 @@
+.background
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	display: block;
+	background: url(images/lego.jpg);
+	background-color: rgb(12,78,75);
+	width: 3400px;
+	height: 1680px;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+
+#container 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+#quote
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 14px;
+	color: white;
+}
+
+
+#content
+{
+	padding: 10px;
+	background-color: rgba(122,122,122,0.5);
+	border: none;
+	font-family: Georgia;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+nav a
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 75px 10px 75px;
+	color: white;
+	background-color: black;
+	border: none;
+	font-size: 14px;
+	font-family: Verdana;
+	letter-spacing: 3px
+}
+
+nav
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Verdana;
+}
+
+
+
+#banner
+{
+	width: auto;
+	margin: 20px;
+	padding: 100px 100px 100px 100px;
+	font-family: Verdana;
+	font-size: 20px;
+	letter-spacing: 5px;
+	border: none;
+	text-align: center;
+	color: white;
+	background-color: rgba(122,122,122,0.5);
+}
+
+#footer
+{
+	width: auto;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	font-family: Verdana;
+	font-size: 9px;
+	letter-spacing: 1px;
+	border: none;
+	text-align: center;
+	color: white;
+	background-color: rgba(122,122,122,0.5);
+}
+
+footer>a
+{
+	text-decoration: none;
+	color: rgb(243,177,180)
+}
+
+footer>a:hover
+{
+	color: red;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+	border: none;
+
+}
+
+
+th,td
+{
+	text-align: center;
+	border: none;
+}
+
+.red
+{
+	color: rgb(243,177,180);
+}
+
+.name
+{
+	text-align: center;
+	color: rgb(243,177,180);
+	text-decoration: dashed-underline;
+	font-family: Verdana
+}
+
+.img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 20px 20px 100px 20px
+	
+}
